@@ -1,0 +1,9 @@
+
+C:\Users\vansh\Downloads\needin-main\needin-main\src\components\ui\command.tsx
+  24:11  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\vansh\Downloads\needin-main\needin-main\src\components\ui\textarea.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+✖ 2 problems (2 errors, 0 warnings)
+
