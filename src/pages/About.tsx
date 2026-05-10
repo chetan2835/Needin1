@@ -88,7 +88,7 @@ const About = () => {
                 </p>
 
                 <p className="text-muted-foreground text-lg leading-relaxed font-bold italic">
-                  “Needin is not chasing delivery speed. It is building a new economic layer on top of travel.”
+                  “Needin Express, along with fast delivery, is building a new economic layer on top of travel.”
                 </p>
 
                 <p className="mt-6 text-primary font-extrabold text-lg tracking-wide">

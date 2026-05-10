@@ -99,7 +99,7 @@ const ServiceCategories = () => {
             27+ Service Categories
           </h2>
           <p className="text-muted-foreground font-bold">
-            Verified local vendors across all essential service categories.
+            Verified professionals across all essential service categories.
           </p>
         </div>
 

@@ -41,7 +41,7 @@ const BecomeVendor = () => {
         <section className="py-16 md:py-24 gradient-hero">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Join Needin as a Vendor
+              Join Needin as a Needin Partner
             </h1>
             <p ref={headerRef} className="text-xl text-primary-foreground/90 max-w-3xl mx-auto mb-8 font-bold">
               Grow your business with Needin and reach more customers in your city.

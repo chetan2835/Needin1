@@ -65,8 +65,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "support@vieccarryindia.com",
-      link: "mailto:support@vieccarryindia.com",
+      content: "support@withneedin.com",
+      link: "mailto:support@withneedin.com",
     },
     {
       icon: Clock,

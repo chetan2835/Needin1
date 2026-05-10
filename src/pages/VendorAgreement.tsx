@@ -36,8 +36,8 @@ const VendorAgreement = () => {
                   having its registered office at: <br />
                   BG-60 , Balaji Garden Main NH-58, Front of Police Chowki, <br />
                   Yogi Puram, Meerut – 250002, Uttar Pradesh, India <br />
-                  Email: needinexpress06@gmail.com <br />
-                  Website: www.vieccarryindia.com</p>
+                  Email:support@withneedin.com <br />
+                  Website: www.withneedin.com</p>
                 <p>
                   (here in after referred to as the <strong>"Company"</strong> )
                 </p>

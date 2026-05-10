@@ -70,8 +70,10 @@ const Footer = () => {
               <h4 className="font-bold mb-6 text-lg text-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>{t("footer.quickLinks")}</h4>
               <ul className="space-y-3">
                 {[
+                  { name: t("header.home"), path: "/" },
                   { name: t("header.about"), path: "/about" },
                   { name: t("header.services"), path: "/services" },
+                  { name: "Highlights", path: "/highlights" },
                   { name: t("header.howItWorks"), path: "/how-it-works" },
                   { name: t("header.becomeVendor"), path: "/become-vendor" },
                   { name: t("header.contact"), path: "/contact" },
@@ -139,11 +141,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:support@vieccarryindia.com" className="flex items-center gap-4 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors group">
+                  <a href="mailto:support@withneedin.com" className="flex items-center gap-4 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors group">
                     <div className="w-10 h-10 rounded-xl bg-muted group-hover:bg-primary/20 flex items-center justify-center transition-colors">
                       <Mail className="w-4 h-4 text-primary" />
                     </div>
-                    <span>support@vieccarryindia.com</span>
+                    <span>support@withneedin.com</span>
                   </a>
                 </li>
               </ul>

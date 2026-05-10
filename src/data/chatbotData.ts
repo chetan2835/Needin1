@@ -162,7 +162,7 @@ export const chatbotData: QA[] = [
     },
     {
         keywords: ["email"],
-        answer: "Hamara official email hai support@vieccarryindia.com."
+        answer: "Hamara official email hai support@withneedin.com."
     },
     {
         keywords: ["phone", "call"],

@@ -22,7 +22,7 @@ const Services = () => {
               Our Services
             </h1>
             <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto font-bold">
-              Verified local vendors across 27+ categories plus Travel-Based Delivery across India.
+             Verified professional across 27+ categories with travel-based delivery service across india.
             </p>
           </div>
         </section>

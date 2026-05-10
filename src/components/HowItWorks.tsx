@@ -18,7 +18,7 @@ const HowItWorks = () => {
       ],
     },
     {
-      title: "For Vendors",
+      title: "For Needin Partners",
       subtitle: "Start earning with Needin",
       color: "secondary",
       steps: [
