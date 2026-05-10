@@ -21,23 +21,54 @@ const Contact = () => {
     phone: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
-    const subject = `New Contact Request from ${formData.name}`;
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`;
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "bac7c53d-53a9-4154-b882-63aab85fe26e", // Web3Forms access key
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+          subject: `New Contact Request from ${formData.name}`,
+          from_name: "Needin Contact Form",
+        }),
+      });
 
-    const mailtoLink = `mailto:needinexpress06@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const result = await response.json();
 
-    window.location.href = mailtoLink;
-
-    toast({
-      title: "Opening Email Client",
-      description: "Please send the email from your default client to complete the request.",
-    });
-
-    setFormData({ name: "", email: "", phone: "", message: "" });
+      if (result.success) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. We will get back to you soon.",
+        });
+        setFormData({ name: "", email: "", phone: "", message: "" });
+      } else {
+        toast({
+          title: "Error Sending Message",
+          description: result.message || "Something went wrong. Please try again later.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Network Error",
+        description: "Could not send the message. Please check your connection and try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -168,7 +199,7 @@ const Contact = () => {
                 <div className="mt-8 p-6 bg-muted/50 rounded-2xl">
                   <p className="text-sm text-muted-foreground font-bold">
                     <strong className="text-foreground">Viec Carry India Pvt Ltd</strong><br />
-                    Website: <a href="https://www.vieccarryindia.com" className="text-primary hover:underline font-bold">www.vieccarryindia.com</a>
+                    Website: <a href="https://www.withneedin.com" className="text-primary hover:underline font-bold">www.withneedin.com</a>
                   </p>
                 </div>
               </div>
@@ -225,9 +256,9 @@ const Contact = () => {
                         />
                       </div>
 
-                      <Button type="submit" size="lg" className="w-full gradient-hero border-0">
-                        <Send className="w-4 h-4 mr-2" />
-                        Send Message
+                      <Button type="submit" size="lg" className="w-full gradient-hero border-0" disabled={isSubmitting}>
+                        <Send className={`w-4 h-4 mr-2 ${isSubmitting ? "animate-pulse" : ""}`} />
+                        {isSubmitting ? "Sending..." : "Send Message"}
                       </Button>
                     </form>
                   </div>
