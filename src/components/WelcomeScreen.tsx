@@ -41,9 +41,9 @@ const WelcomeScreen = ({ onExplore }: WelcomeScreenProps) => {
                                 className="w-full h-full object-cover"
                             />
                         </motion.div>
-                        {/* Warm Sunset Overlay to match the provided image style */}
-                        <div className="absolute inset-0 bg-gradient-to-b from-orange-100/80 via-white/40 to-orange-900/30 backdrop-blur-[1px]" />
-                        <div className="absolute inset-0 bg-orange-500/10 mix-blend-overlay" />
+                        {/* Coral Red Overlay to match the theme */}
+                        <div className="absolute inset-0 bg-gradient-to-b from-red-100/80 via-white/40 to-red-900/30 backdrop-blur-[1px]" />
+                        <div className="absolute inset-0 bg-[#E45B52]/10 mix-blend-overlay" />
                     </div>
 
                     {/* Content Container */}
@@ -75,7 +75,7 @@ const WelcomeScreen = ({ onExplore }: WelcomeScreenProps) => {
                                 initial={{ y: 30, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ delay: 0.7, duration: 0.8 }}
-                                className="text-base md:text-2xl font-bold text-[#A04000] mb-4 md:mb-8 max-w-3xl"
+                                className="text-base md:text-2xl font-bold text-[#C0392B] mb-4 md:mb-8 max-w-3xl"
                             >
                                 for Urgent City-to-City Deliveries, Verified Travelers, and Faster-than-Courier Shipping
                             </motion.h2>
@@ -88,7 +88,7 @@ const WelcomeScreen = ({ onExplore }: WelcomeScreenProps) => {
                                 className="mb-8 md:mb-12 max-w-3xl text-sm md:text-lg text-gray-800 font-medium leading-relaxed drop-shadow-sm bg-white/30 p-4 md:p-6 rounded-2xl backdrop-blur-sm border border-white/20 shadow-lg"
                             >
                                 <p className="mb-2 md:mb-4">
-                                    Through <span className="text-[#D35400] font-bold">verified travelers</span>, <span className="text-[#D35400] font-bold">strong KYC</span>, and <span className="text-[#D35400] font-bold">secure OTP-based delivery</span>, Needin enables people to send small, urgent parcels between cities in just <span className="text-[#D35400] font-bold">hours, not days</span>.
+                                    Through <span className="text-[#E45B52] font-bold">verified travelers</span>, <span className="text-[#E45B52] font-bold">strong KYC</span>, and <span className="text-[#E45B52] font-bold">secure OTP-based delivery</span>, Needin enables people to send small, urgent parcels between cities in just <span className="text-[#E45B52] font-bold">hours, not days</span>.
                                 </p>
                                 <p>
                                     By leveraging existing travel routes, Needin creates a faster, more affordable, and safer alternative to traditional courier services, while allowing travelers to earn on the go.
@@ -106,7 +106,7 @@ const WelcomeScreen = ({ onExplore }: WelcomeScreenProps) => {
                             >
                                 <Button
                                     onClick={handleExplore}
-                                    className="bg-gradient-to-r from-[#E67E22] to-[#D35400] hover:from-[#D35400] hover:to-[#A04000] text-lg md:text-2xl font-bold py-4 md:py-8 px-8 md:px-12 rounded-2xl shadow-[0_4px_14px_0_rgba(230,126,34,0.39)] transition-all duration-300 border-2 border-[#F39C12]/20"
+                                    className="bg-gradient-to-r from-[#E45B52] to-[#C0392B] hover:from-[#C0392B] hover:to-[#962d22] text-lg md:text-2xl font-bold py-4 md:py-8 px-8 md:px-12 rounded-2xl shadow-[0_4px_14px_0_rgba(228,91,82,0.39)] transition-all duration-300 border-2 border-[#E45B52]/20"
                                 >
                                     Explore Needin
                                     <ArrowRight className="ml-2 w-5 h-5 md:w-6 md:h-6" />
