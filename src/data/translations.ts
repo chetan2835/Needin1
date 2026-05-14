@@ -45,8 +45,8 @@ export const translations: Record<Language, Translations> = {
         common: {
             loading: "Loading...",
             explore: "Explore Needin",
-            welcomeTitle: "A Trusted Peer-to-Peer Express Delivery Network",
-            welcomeSubtitle: "for Urgent City-to-City Deliveries, Verified Travelers, and Faster-than-Courier Shipping",
+            welcomeTitle: "Fast Travel-Based Delivery service & Trusted, verified, Trained House Help Services",
+            welcomeSubtitle: "Including Car Wash, Bike Wash, Water Tank Cleaning and More — All in One Click.",
             comingSoon: "COMING SOON",
             launchingSoon: "LAUNCHING ACROSS INDIA SOON"
         }
