@@ -67,7 +67,7 @@ const WelcomeScreen = ({ onExplore }: WelcomeScreenProps) => {
                                 transition={{ delay: 0.5, duration: 0.8 }}
                                 className="text-2xl md:text-5xl lg:text-6xl font-extrabold text-[#2D2D2D] mb-2 md:mb-4 leading-tight tracking-tight drop-shadow-sm"
                             >
-                                Fast Travel-Based Delivery service & Trusted, verified, Trained House Help Services
+                                A Trusted Peer-to-Peer Express Delivery Network
                             </motion.h1>
 
                             {/* Sub-headline */}
@@ -77,7 +77,7 @@ const WelcomeScreen = ({ onExplore }: WelcomeScreenProps) => {
                                 transition={{ delay: 0.7, duration: 0.8 }}
                                 className="text-base md:text-2xl font-bold text-[#C0392B] mb-4 md:mb-8 max-w-3xl"
                             >
-                                Including Car Wash, Bike Wash, Water Tank Cleaning and More — All in One Click.
+                                for Urgent City-to-City Deliveries, Verified Travelers, and Faster-than-Courier Shipping
                             </motion.h2>
 
                             {/* Body Text */}
