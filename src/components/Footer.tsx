@@ -97,22 +97,22 @@ const Footer = () => {
               <h4 className="font-bold mb-6 text-lg text-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>Legal</h4>
               <ul className="space-y-3">
                 {[
-                  { name: "Terms & Conditions", path: "/terms.pdf" },
-                  { name: "Privacy Policy", path: "/privacy.pdf" },
-                  { name: "Refund Policy", path: "/refund.pdf" },
-                  // { name: "Vendor Agreement", path: "/VendorAgreement.pdf" },
-                  { name: "Express Agreement", path: "/ExpressAgreement.pdf" },
+                  
+                  { name: "Terms & Conditions", path: "/terms" },
+                  { name: "Privacy Policy", path: "/privacy" },
+                  { name: "Refund Policy", path: "/refund" },
+                  // { name: "Vendor Agreement", path: "/VendorAgreement" },
+                  { name: "Express Agreement", path: "/ExpressAgreement" },
                 ].map((link) => (
                   <li key={link.path}>
-                    <a
-                      href={link.path}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      to={link.path}
+                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                       className="text-muted-foreground hover:text-primary transition-colors text-sm font-semibold inline-flex items-center gap-2 group"
                     >
                       <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300" />
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

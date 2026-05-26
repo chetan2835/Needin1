@@ -18,22 +18,24 @@ const Privacy = () => {
             <div className="max-w-5xl mx-auto">
 
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                PRIVACY POLICY – NEEDIN APP
+                PRIVACY POLICY
               </h1>
               <p className="text-lg font-semibold mb-2">Operated by Viec Carry India Pvt Ltd</p>
 
               <div className="text-muted-foreground text-lg leading-relaxed space-y-4 mt-8">
 
                 <p>
-                  This Privacy Policy describes how Viec Carry India Pvt Ltd (“Company”, “we”, “our”, or “us”) collects, uses, processes, stores, and protects personal information when you access or use the Needin mobile application (“App”).                </p>
+                  This Privacy Policy describes how Viec Carry India Pvt Ltd (“Company”, “we”, “our”, or “us”) collects, uses, processes, stores, and protects personal information when you access or use the mobile application (“Needin App”).
+                </p>
 
                 <p>
-                  By downloading, registering, accessing, or using the Needin App, you agree to the collection and use of information in accordance with this Privacy Policy.                </p>
+                  By downloading, registering, accessing, or using the Needin App, you agree to the collection and use of information in accordance with this Privacy Policy.
+                </p>
 
                 <p>This Privacy Policy applies to all services offered through the Needin App, including:</p>
                 <ul className="list-disc pl-8">
-                  <li>Needin Vendor Services</li>
-                  <li>Needin Express (travel-based same-day delivery services)</li>
+                  <li>Needin Services (house help services )</li>
+                  <li>Needin Express (travel-based delivery services)</li>
                 </ul>
 
                 <hr className="my-10" />
@@ -41,7 +43,7 @@ const Privacy = () => {
                 {/* 1 */}
                 <h2 className="text-2xl font-bold text-foreground">1. Information We Collect</h2>
 
-                <p className="font-semibold">(a) Personal Information</p>
+                <p className="font-semibold">a) Personal Information</p>
                 <p>We may collect the following personal information:</p>
                 <ul className="list-disc pl-8">
                   <li>Full name</li>
@@ -53,7 +55,7 @@ const Privacy = () => {
 
                 <hr />
 
-                <p className="font-semibold">(b) Identity Verification & KYC Information</p>
+                <p className="font-semibold">b) Identity Verification & KYC Information</p>
                 <p>For safety, trust, fraud prevention, and legal compliance, we may collect:</p>
                 <ul className="list-disc pl-8">
                   <li>Mobile number verification</li>
@@ -63,11 +65,12 @@ const Privacy = () => {
                 </ul>
                 <p className="font-semibold mt-2">Important:</p>
                 <p>
-                  Aadhaar details are not stored by the Company unless legally required and are processed securely through authorized verification service providers.                </p>
+                  Aadhaar details are not stored by the Company unless legally required and are processed securely through authorized verification service providers.
+                </p>
 
                 <hr />
 
-                <p className="font-semibold">(c) Location Information</p>
+                <p className="font-semibold">c) Location Information</p>
                 <p>
                   We may collect:
                 </p>
@@ -76,11 +79,12 @@ const Privacy = () => {
                   <li>Background location data only during active service execution, tracking, safety, and delivery completion</li>
                 </ul>
                 <p>
-                  Location data is collected strictly for service-related purposes and is disabled once the service is completed.                </p>
+                  Location data is collected strictly for service-related purposes and is disabled once the service is completed.
+                </p>
 
                 <hr />
 
-                <p className="font-semibold">(d) Transaction Information</p>
+                <p className="font-semibold">d) Transaction Information</p>
                 <p>We may collect:</p>
                 <ul className="list-disc pl-8">
                   <li>Order and service request details</li>
@@ -93,7 +97,7 @@ const Privacy = () => {
 
                 <hr />
 
-                <p className="font-semibold">(e) Device & Technical Information</p>
+                <p className="font-semibold">e) Device & Technical Information</p>
                 <p>
                   We may automatically collect:
                 </p>
@@ -136,16 +140,6 @@ const Privacy = () => {
                 <p>
                   Withdrawal of consent may limit or disable certain app features, subject to legal and regulatory obligations.
                 </p>
-                {/* <ul className="list-disc pl-8">
-                  <li>Provide, operate, and manage Needin services</li>
-                  <li>Connect users with vendors and delivery partners</li>
-                  <li>Verify identity and prevent fraud, fake accounts, or misuse</li>
-                  <li>Enable secure onboarding and KYC verification</li>
-                  <li>Process orders, deliveries, and payments</li>
-                  <li>Improve app performance, safety, and user experience</li>
-                  <li>Send OTPs, alerts, service updates, and notifications</li>
-                  <li>Comply with legal, regulatory, and law-enforcement requirements</li>
-                </ul> */}
 
                 <hr className="my-10" />
 
@@ -153,15 +147,44 @@ const Privacy = () => {
                   4. App Permissions
                 </h2>
                 <p>
-                  The App may request access to:
+                  The Needin App may request certain permissions to ensure that services are provided in a safe, reliable, and seamless manner. These permissions include:
                 </p>
+                
+                <h3 className="text-xl font-bold mt-4">1. Location Permission (Foreground & Background)</h3>
                 <ul className="list-disc pl-8">
-                  <li>Location (foreground and background)</li>
-                  <li>Camera and microphone (for verification and support)</li>
-                  <li>Storage (for document and profile uploads)</li>
+                  <li>For pickup, delivery, navigation, and real-time tracking</li>
+                  <li>Background location access is used only while a service is actively in progress</li>
                 </ul>
-                <p>
-                  Permissions are requested only when necessary for service functionality, safety, verification, or compliance.
+
+                <h3 className="text-xl font-bold mt-4">2. Camera & Microphone Permission</h3>
+                <ul className="list-disc pl-8">
+                  <li>For identity verification (selfie / face video)</li>
+                  <li>For uploading profile images and required documents</li>
+                  <li>For customer support and security-related purposes</li>
+                </ul>
+
+                <h3 className="text-xl font-bold mt-4">3. Storage Permission</h3>
+                <ul className="list-disc pl-8">
+                  <li>For uploading profile photos, documents, and other necessary files</li>
+                </ul>
+
+                <h3 className="text-xl font-bold mt-4">4. Phone Call Permission</h3>
+                <ul className="list-disc pl-8">
+                  <li>To enable call connectivity between users, vendors, and delivery partners</li>
+                  <li>Call functionality is limited strictly to service-related communication</li>
+                  <li>The App does not record any phone calls</li>
+                </ul>
+
+                <h3 className="text-xl font-bold mt-4">5. SMS Permission</h3>
+                <ul className="list-disc pl-8">
+                  <li>For sending and verifying OTPs</li>
+                  <li>For service-related alerts and security notifications</li>
+                  <li>The App does not read or store users’ personal SMS messages</li>
+                </ul>
+
+                <p className="mt-4">
+                  All of the above permissions are requested <strong>only when necessary</strong> and <strong>for limited, specific purposes.</strong><br/>
+                  Users may control or revoke these permissions at any time through their device settings.
                 </p>
 
                 <hr className="my-10" />
@@ -170,7 +193,8 @@ const Privacy = () => {
                   5. Sharing of Information
                 </h2>
                 <p>
-                  We may share personal information only when necessary, including with:                </p>
+                  We may share personal information only when necessary, including with:
+                </p>
                 <ul className="list-disc pl-8">
                   <li>Vendors to fulfill service requests</li>
                   <li>Delivery partners for pickup and delivery</li>
@@ -191,7 +215,6 @@ const Privacy = () => {
                   Only the minimum necessary user information is shared with vendors and delivery partners strictly for service fulfillment purposes.
                 </p>
 
-
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
@@ -206,24 +229,54 @@ const Privacy = () => {
                   <li>Provide real-time tracking and safety features</li>
                 </ul>
                 <p>
-                  Location data is never used for advertising purposes and is never sold.                </p>
+                  Location data is never used for advertising purposes and is never sold.
+                </p>
 
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  8. Data Security
+                  8. Cookies & Tracking Technologies
+                </h2>
+                <p>
+                  The Needin App and website https://www.withneedin.com may use cookies, SDKs, pixels, and similar tracking technologies to enhance user experience, improve performance, analyze usage patterns, and ensure security.
+                </p>
+                <p>Cookies and tracking technologies may be used to:</p>
+                <ul className="list-disc pl-8">
+                  <li>Remember user preferences and login sessions</li>
+                  <li>Analyze app and website traffic</li>
+                  <li>Monitor performance, crashes, and errors</li>
+                  <li>Improve service efficiency and reliability</li>
+                </ul>
+                <p>
+                  Users can control or disable cookies through their device or browser settings. However, disabling cookies may affect certain features or functionality of the App or website.
+                  <br/><br/>
+                  We do not use cookies for unauthorized advertising purposes and do not sell cookie-based data to third parties.
+                </p>
+
+                <hr className="my-10" />
+
+                <h2 className="text-2xl font-bold text-foreground">
+                  9. Analytics & Performance Monitoring
+                </h2>
+                <p>
+                  We may use analytics and crash reporting tools to understand how users interact with the App and to improve service quality. These tools collect aggregated and anonymized data and do not allow us to personally identify users.
+                </p>
+
+                <hr className="my-10" />
+
+                <h2 className="text-2xl font-bold text-foreground">
+                  10. Data Security
                 </h2>
                 <p>
                   We implement reasonable technical, administrative, and organizational safeguards to protect personal data from unauthorized access, loss, misuse, or alteration.
-                </p>
-                <p>
-                  We implement reasonable technical, administrative, and organizational safeguards to protect personal data from unauthorized access, loss, misuse, or alteration.
+                  <br/><br/>
+                  However, no digital system is completely secure, and absolute security cannot be guaranteed.
                 </p>
 
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  9. Data Retention
+                  11. Data Retention
                 </h2>
                 <p>
                   User data is retained only for as long as necessary to:
@@ -240,7 +293,7 @@ const Privacy = () => {
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  10. User Rights
+                  12. User Rights
                 </h2>
                 <p>
                   Users have the right to:
@@ -251,46 +304,62 @@ const Privacy = () => {
                   <li>Request account and data deletion (subject to legal obligations)</li>
                 </ul>
                 <p>
-                  Deletion requests are processed within a reasonable time unless retention is required by law.                </p>
+                  Deletion requests are processed within a reasonable time unless retention is required by law.
+                </p>
 
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  11. Third-Party Services
+                  13. Automated Decision-Making & Profiling
                 </h2>
                 <p>
-                  The Needin App may integrate with third-party services such as payment gateways and identity verification providers.
+                  The Company does not use personal data for automated decision-making or profiling that produces legal or similarly significant effects on users.
                 </p>
+
+                <hr className="my-10" />
+
+                <h2 className="text-2xl font-bold text-foreground">
+                  14. Third-Party Services
+                </h2>
                 <p>
+                  The Needin App may integrate with third-party services such as payment gateways, analytics tools, and identity verification providers.
+                  <br/><br/>
                   The Company is not responsible for the privacy practices of third-party platforms. Users are encouraged to review their respective privacy policies.
                 </p>
 
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  12. Children’s Privacy
+                  15. International Data Processing
+                </h2>
+                <p>
+                  Some data may be processed or stored on secure servers located outside India, subject to appropriate safeguards and in compliance with applicable data protection laws.
+                </p>
+
+                <hr className="my-10" />
+
+                <h2 className="text-2xl font-bold text-foreground">
+                  16. Children’s Privacy
                 </h2>
                 <p>
                   The Needin App is intended only for users who are 18 years of age or older.
                   We do not knowingly collect personal data from minors.
                 </p>
 
-
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  13. Marketing & Promotional Communication
+                  17. Marketing & Promotional Communication
                 </h2>
                 <p>
                   Users may receive service-related and promotional communications from the Company.
                   Users may opt out of non-essential promotional communications at any time.
                 </p>
 
-
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  14. Legal Compliance
+                  18. Legal Compliance
                 </h2>
                 <p>
                   The Company complies with applicable Indian laws, including:
@@ -300,45 +369,42 @@ const Privacy = () => {
                   <li>Information Technology Act and applicable rules</li>
                 </ul>
 
-
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  15. Grievance Officer
+                  19. Grievance Officer
                 </h2>
                 <p>
-                  In accordance with Indian IT Rules:
-                </p>
-                <p>
-                  Grievance Officer <br />
-                  Designation: Grievance Officer <br />
-                  Email: needinexpress06@gmail.com <br />
-                  Response Time: Within 7 working days <br />
+                  In accordance with Indian IT Rules:<br/><br/>
+                  <strong>Grievance Officer</strong><br/>
+                  Name Rohit kumar Arya<br/>
+                  Designation: Grievance Officer<br/>
+                  Email: help@withneedin.com<br/>
+                  Response Time: Within 7 working days
                 </p>
 
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  16. Changes to This Privacy Policy
+                  20. Changes to This Privacy Policy
                 </h2>
                 <p>
-                  The Company may update this Privacy Policy from time to time.
-                  Any changes will be effective immediately upon publication on the App or website.
-                  Continued use of the App constitutes acceptance of the updated policy.
+                  The Company may update this Privacy Policy from time to time. Any changes will be effective immediately upon publication on the App or website. Continued use of the App constitutes. acceptance of the updated policy
                 </p>
 
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  17. Contact Information
+                  21. Contact Information
                 </h2>
                 <p>
-                  For any questions or concerns regarding this Privacy Policy, please contact:                </p>
+                  For any questions or concerns regarding this Privacy Policy, please contact:
+                </p>
                 <p>
-                  Viec Carry India Pvt Ltd <br />
-                  📧 Email: needinexpress06@gmail.com <br />
-                  🌐 Website: www.vieccarryindia.com
-
+                  <strong>Viec Carry India Pvt Ltd</strong> <br />
+                  Email: support@withneedin.com <br />
+                  Website: <a href="https://www.withneedin.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.withneedin.com</a><br/>
+                  Mob- +91 9286783640
                 </p>
 
               </div>
