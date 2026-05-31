@@ -188,10 +188,10 @@ const ComingSoon = () => {
   const [loading, setLoading] = useState(false);
 
   const location = useLocation();
-  const isVendor = location.pathname.includes("vendor");
-  const title = isVendor ? "Needin Vendor Services" : "Needin Express";
+  const isVendor = location.pathname.includes("professional");
+  const title = isVendor ? "Needin Professional Services" : "Needin Express";
   const description = isVendor
-    ? "We're building something amazing! Our vendor services platform will connect you with trusted local professionals for all your needs."
+    ? "We're building something amazing! Our professional services platform will connect you with trusted local professionals for all your needs."
     : "Express delivery is on its way! Soon you'll be able to send parcels and documents across India with Travel-Based Delivery.";
 
   const handleNotify = (e: React.FormEvent) => {
@@ -215,7 +215,7 @@ const ComingSoon = () => {
         A new user has subscribed to be notified about ${title}.
         
         User Email: ${email}
-        Page: ${isVendor ? 'Vendor Services' : 'Express Delivery'}
+        Page: ${isVendor ? 'Professional Services' : 'Express Delivery'}
         Timestamp: ${new Date().toLocaleString()}
         
         Please add them to the mailing list.
@@ -349,7 +349,7 @@ const ComingSoon = () => {
               style={{ animationDelay: '0.5s' }}
             >
               {[
-                { icon: "🚀", title: "Fast & Reliable", desc: isVendor ? "Quick vendor matching" : "Travel-Based Delivery" },
+                { icon: "🚀", title: "Fast & Reliable", desc: isVendor ? "Quick professional matching" : "Travel-Based Delivery" },
                 { icon: "🔒", title: "Secure", desc: isVendor ? "Verified professionals" : "Tracked parcels" },
                 { icon: "💰", title: "Affordable", desc: "Best rates guaranteed" },
               ].map((feature, i) => (

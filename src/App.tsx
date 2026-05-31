@@ -50,12 +50,12 @@ function AnimatedRoutes() {
           <Route path="/highlights" element={<Highlights />} />
           <Route path="/services" element={<Services />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
-          <Route path="/become-vendor" element={<BecomeVendor />} />
+          <Route path="/become-professional" element={<BecomeVendor />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/refund" element={<Refund />} />
-          <Route path="/vendor-services" element={<VendorServices />} />
+          <Route path="/professional-services" element={<VendorServices />} />
           <Route path="/express-delivery" element={<ExpressDelivery />} />
           <Route path="/VendorAgreement" element={<VendorAgreement />} />
           <Route path="/ExpressAgreement" element={<ExpressAgreement />} />

@@ -24,11 +24,11 @@ export const chatbotData: QA[] = [
 
     {
         keywords: ["what is needin", "about needin", "needin kya hai"],
-        answer: "Needin ek hyperlocal gig economy platform hai jo customers ko verified vendors aur travelers ke saath services aur delivery ke liye connect karta hai."
+        answer: "Needin ek hyperlocal gig economy platform hai jo customers ko verified professionals aur travelers ke saath services aur delivery ke liye connect karta hai."
     },
     {
         keywords: ["what does needin do", "needin services overview"],
-        answer: "Needin customers ko verified carriers aur vendors ke saath deliveries aur local services ke liye connect karta hai."
+        answer: "Needin customers ko verified carriers aur professionals ke saath deliveries aur local services ke liye connect karta hai."
     },
     {
         keywords: ["is needin a delivery company"],
@@ -134,24 +134,24 @@ export const chatbotData: QA[] = [
     /* ================= VENDOR ================= */
 
     {
-        keywords: ["vendor", "local services"],
-        answer: "Needin verified vendors ko customers se connect karta hai local services ke liye."
+        keywords: ["professional", "local services"],
+        answer: "Needin verified professionals ko customers se connect karta hai local services ke liye."
     },
     {
-        keywords: ["become vendor", "register vendor"],
-        answer: "Vendor banne ke liye business details aur documents submit karne hote hain."
+        keywords: ["become professional", "register professional"],
+        answer: "Professional banne ke liye business details aur documents submit karne hote hain."
     },
     {
-        keywords: ["vendor verification"],
-        answer: "Vendor activation se pehle verification mandatory hoti hai."
+        keywords: ["professional verification"],
+        answer: "Professional activation se pehle verification mandatory hoti hai."
     },
     {
-        keywords: ["vendor customers"],
-        answer: "Customers ke service requests Needin platform ke through vendors ko assign hote hain."
+        keywords: ["professional customers"],
+        answer: "Customers ke service requests Needin platform ke through professionals ko assign hote hain."
     },
     {
-        keywords: ["vendor payment"],
-        answer: "Service successfully complete hone ke baad vendors ko payment milti hai."
+        keywords: ["professional payment"],
+        answer: "Service successfully complete hone ke baad professionals ko payment milti hai."
     },
 
     /* ================= SUPPORT ================= */
@@ -181,7 +181,7 @@ export const chatbotData: QA[] = [
     },
     {
         keywords: ["address", "office location"],
-        answer: "Office address hai BG-60,  Main NH-58, Yogi Puram, Meerut – 250002, India."
+        answer: "Office address hai BG-60,  Main NH-58, Yogi Puram, Meerut – 250001, India."
     },
 
     /* ================= CLOSING ================= */

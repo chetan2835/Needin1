@@ -10,10 +10,10 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const About = () => {
   const coreValues = [
-    { icon: Shield, title: "Trust & Transparency", description: "Verified vendors and clear pricing" },
+    { icon: Shield, title: "Trust & Transparency", description: "Verified professionals and clear pricing" },
     { icon: Zap, title: "Speed & Reliability", description: "Fast service delivery you can count on" },
     { icon: Heart, title: "Customer Satisfaction", description: "Your happiness is our priority" },
-    { icon: Users, title: "Vendor Empowerment", description: "Supporting local professionals to thrive" },
+    { icon: Users, title: "Professional Empowerment", description: "Supporting local professionals to thrive" },
   ];
 
   const founders = [
@@ -41,7 +41,7 @@ const About = () => {
     <>
       <Helmet>
         <title>About Us - Needin | Viec Carry India Pvt Ltd</title>
-        <meta name="description" content="Learn about Needin, a hyperlocal gig economy platform by Viec Carry India Pvt Ltd, empowering vendors and connecting customers with trusted local services." />
+        <meta name="description" content="Learn about Needin, a hyperlocal gig economy platform by Viec Carry India Pvt Ltd, empowering professionals and connecting customers with trusted local services." />
       </Helmet>
 
       <Header />
@@ -70,7 +70,7 @@ const About = () => {
                   Viec Carry India Pvt Ltd operates the Needin mobile application to solve local service discovery and delivery challenges using technology.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed font-bold">
-                  We are a hyperlocal gig economy platform for the unorganised sector, empowering vendors, delivery partners, and service professionals with sustainable earning opportunities.
+                  We are a hyperlocal gig economy platform for the unorganised sector, empowering professionals, delivery partners, and service professionals with sustainable earning opportunities.
                 </p>
               </div>
 
@@ -80,11 +80,11 @@ const About = () => {
                 </h2>
 
                 <p className="text-muted-foreground mb-6 text-lg leading-relaxed font-semibold">
-                  Needin is a <span className="text-primary font-bold">women-led</span>, <span className="text-primary font-bold">DPIIT-recognised</span> hyperlocal gig economy platform building a new way for India to move goods and access local services. We enable <span className="font-bold">affordable, travel-based deliveries</span> and <span className="font-bold">trusted vendor services</span> across <span className="text-primary font-bold">PAN India</span>.
+                  Needin is a <span className="text-primary font-bold">women-led</span>, <span className="text-primary font-bold">DPIIT-recognised</span> hyperlocal gig economy platform building a new way for India to move goods and access local services. We enable <span className="font-bold">affordable, travel-based deliveries</span> and <span className="font-bold">trusted professional services</span> across <span className="text-primary font-bold">PAN India</span>.
                 </p>
 
                 <p className="text-muted-foreground mb-6 text-lg leading-relaxed font-semibold">
-                  Needin is not just focused on speed. We are creating a <span className="font-bold">new economic layer on top of everyday travel</span> — empowering vendors, delivery partners, and service professionals to earn sustainably while making logistics and services more accessible for everyone.
+                  Needin is not just focused on speed. We are creating a <span className="font-bold">new economic layer on top of everyday travel</span> — empowering professionals, delivery partners, and service professionals to earn sustainably while making logistics and services more accessible for everyone.
                 </p>
 
                 <p className="text-muted-foreground text-lg leading-relaxed font-bold italic">
@@ -308,7 +308,7 @@ const About = () => {
                   <h3 className="text-xl font-bold mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Our Mission</h3>
                   <ul className="text-muted-foreground space-y-2 font-bold">
                     <li>• Fast & affordable local services</li>
-                    <li>• Strong earning ecosystem for vendors</li>
+                    <li>• Strong earning ecosystem for professionals</li>
                     <li>• Simple Travel-Based & intercity delivery</li>
                   </ul>
                 </div>

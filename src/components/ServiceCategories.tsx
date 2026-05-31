@@ -67,9 +67,9 @@ const ServiceCategories = () => {
                   <h3 className="font-bold text-base md:text-lg text-foreground mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
                     {service.name}
                   </h3>
-                  <div className="flex justify-end mt-auto">
+                  {/* <div className="flex justify-end mt-auto">
                     <ArrowRight className="w-5 h-5 text-foreground group-hover:translate-x-1 transition-transform" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </FloatingCard>

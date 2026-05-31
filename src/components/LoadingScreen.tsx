@@ -134,7 +134,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               <div className="h-1.5 w-full bg-muted/50 rounded-full overflow-hidden backdrop-blur-sm">
                 <div
                   ref={progressRef}
-                  className="h-full bg-gradient-to-r from-primary to-orange-400 transition-all duration-300 ease-out rounded-full shadow-[0_0_10px_rgba(249,115,22,0.5)]"
+                  className="h-full bg-gradient-to-r from-primary to-accent transition-all duration-300 ease-out rounded-full shadow-[0_0_10px_rgba(var(--primary),0.5)]"
                   style={{ width: `${Math.min(progress, 100)}%` }}
                 />
               </div>
@@ -199,7 +199,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
 
             {/* Description Text */}
             <p className="animate-in text-base md:text-xl text-gray-600 max-w-3xl mb-12 leading-relaxed">
-              Through <strong className="text-primary font-bold">verified travelers</strong>, <strong className="text-primary font-bold">strong KYC</strong>, and <strong className="text-primary font-bold">secure OTP-based delivery</strong>, Needin enables people to send small, urgent parcels between cities in just <strong className="text-orange-700 font-bold bg-orange-100 px-1 rounded">hours, not days</strong>.
+              Through <strong className="text-primary font-bold">verified travelers</strong>, <strong className="text-primary font-bold">strong KYC</strong>, and <strong className="text-primary font-bold">secure OTP-based delivery</strong>, Needin enables people to send small, urgent parcels between cities in just <strong className="text-primary-foreground font-bold bg-primary px-1 rounded">hours, not days</strong>.
               <br className="hidden md:block" />
               <span className="mt-2 block">By leveraging existing travel routes, Needin creates a faster, more affordable, and safer alternative to traditional courier services.</span>
             </p>
@@ -209,7 +209,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               <Button
                 onClick={handleExplore}
                 size="lg"
-                className="text-lg px-10 py-7 rounded-full bg-gradient-to-r from-primary to-orange-600 hover:from-primary/90 hover:to-orange-700 hover:scale-105 transition-all duration-300 shadow-[0_10px_20px_rgba(249,115,22,0.3)] text-white font-bold group"
+                className="text-lg px-10 py-7 rounded-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 hover:scale-105 transition-all duration-300 shadow-[0_10px_20px_rgba(var(--primary),0.3)] text-primary-foreground font-bold group"
               >
                 Explore Needin
                 <ArrowRight className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" />

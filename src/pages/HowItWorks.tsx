@@ -9,7 +9,7 @@ const HowItWorks = () => {
     <>
       <Helmet>
         <title>How It Works - Needin | Simple Steps to Get Started</title>
-        <meta name="description" content="Learn how Needin works for customers, vendors, and delivery partners. Simple 4-step process to book services or start earning." />
+        <meta name="description" content="Learn how Needin works for customers, professionals, and delivery partners. Simple 4-step process to book services or start earning." />
       </Helmet>
 
       <Header />

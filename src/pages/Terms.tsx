@@ -263,7 +263,7 @@ const Terms = () => {
                 (b) You may also write to us at support@withneedin.com and we will strive to resolve your grievance within the timelines prescribed under applicable laws. For a complaint raised via email, you will receive a unique ticket number to track its status.</p>
                 <p>16.2. Grievance Officer<br/>
                 In case you do not receive a satisfactory response from the channels above, you can escalate the matter to our Grievance Officer by giving the reference of the ticket number.<br/>
-                Name: Rohit kumara Arya<br/>
+                Name: Rohit kumar Arya<br/>
                 Email Address: help@withneedin.com<br/>
                 Contact Number: +91 9286783640<br/>
                 Time: Monday - Friday (10:00 am to 05:00 pm)</p>

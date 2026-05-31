@@ -30,7 +30,7 @@ const Footer = () => {
               {t("header.downloadApp")}
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Link to="/become-vendor">
+            <Link to="/become-professional">
               <Button
                 size="lg"
                 variant="outline"
@@ -75,7 +75,7 @@ const Footer = () => {
                   { name: t("header.services"), path: "/services" },
                   { name: "Highlights", path: "/highlights" },
                   { name: t("header.howItWorks"), path: "/how-it-works" },
-                  { name: t("header.becomeVendor"), path: "/become-vendor" },
+                  { name: t("header.becomeVendor"), path: "/become-professional" },
                   { name: t("header.contact"), path: "/contact" },
                 ].map((link) => (
                   <li key={link.path}>
@@ -101,7 +101,7 @@ const Footer = () => {
                   { name: "Terms & Conditions", path: "/terms" },
                   { name: "Privacy Policy", path: "/privacy" },
                   { name: "Refund Policy", path: "/refund" },
-                  // { name: "Vendor Agreement", path: "/VendorAgreement" },
+                  // { name: "Professional Agreement", path: "/VendorAgreement" },
                   { name: "Express Agreement", path: "/ExpressAgreement" },
                 ].map((link) => (
                   <li key={link.path}>

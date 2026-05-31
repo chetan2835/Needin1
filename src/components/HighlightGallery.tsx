@@ -57,7 +57,7 @@ const HighlightGallery = () => {
                         transition={{ duration: 0.6 }}
                         className="text-4xl md:text-6xl font-black text-foreground tracking-tight"
                     >
-                        Highlights & <span className="text-orange-500">Media</span>
+                        Highlights & <span className="text-primary">Media</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: -10 }}
@@ -81,14 +81,14 @@ const HighlightGallery = () => {
                             className={`
                 relative px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300
                 ${activeCategory === category
-                                    ? 'text-white shadow-lg shadow-orange-500/25'
+                                    ? 'text-white shadow-lg shadow-primary/25'
                                     : 'text-muted-foreground hover:bg-muted/50 hover:text-foreground bg-background/50 backdrop-blur-sm border border-border/50'}
               `}
                         >
                             {activeCategory === category && (
                                 <motion.div
                                     layoutId="activeTab"
-                                    className="absolute inset-0 bg-orange-500 rounded-full"
+                                    className="absolute inset-0 bg-primary rounded-full"
                                     transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                                 />
                             )}
@@ -149,7 +149,7 @@ const HighlightGallery = () => {
                                 {/* Content */}
                                 <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                                     <div className="flex items-center justify-between mb-2">
-                                        <span className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider bg-orange-500 text-white rounded-md">
+                                        <span className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider bg-primary text-white rounded-md">
                                             {item.category}
                                         </span>
                                         {item.date && (
@@ -158,7 +158,7 @@ const HighlightGallery = () => {
                                             </span>
                                         )}
                                     </div>
-                                    <h3 className="text-white font-bold text-lg leading-tight line-clamp-2 mb-1 group-hover:text-orange-400 transition-colors">
+                                    <h3 className="text-white font-bold text-lg leading-tight line-clamp-2 mb-1 group-hover:text-primary transition-colors">
                                         {item.title}
                                     </h3>
                                     <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300">
@@ -170,7 +170,7 @@ const HighlightGallery = () => {
 
                                 {/* Hover Maximize Icon */}
                                 <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-4 group-hover:translate-x-0">
-                                    <div className="w-8 h-8 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white border border-white/20 hover:bg-orange-500 hover:border-orange-500 transition-colors">
+                                    <div className="w-8 h-8 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white border border-white/20 hover:bg-primary hover:border-primary transition-colors">
                                         <Maximize2 className="w-4 h-4" />
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@ const HighlightGallery = () => {
                             variant="outline"
                             size="lg"
                             onClick={handleLoadMore}
-                            className="rounded-full px-8 border-orange-200 hover:bg-orange-50 hover:text-orange-600 hover:border-orange-300 transition-all text-base"
+                            className="rounded-full px-8 border-primary/20 hover:bg-primary/10 hover:text-primary hover:border-primary/30 transition-all text-base"
                         >
                             Load More Highlights
                         </Button>
@@ -246,7 +246,7 @@ const HighlightGallery = () => {
                                     <div className="relative flex justify-center items-center bg-zinc-900 min-h-[400px]">
                                         {imageLoading && (
                                             <div className="absolute inset-0 flex items-center justify-center">
-                                                <Loader2 className="w-10 h-10 text-orange-500 animate-spin" />
+                                                <Loader2 className="w-10 h-10 text-primary animate-spin" />
                                             </div>
                                         )}
                                         <img
@@ -266,7 +266,7 @@ const HighlightGallery = () => {
                                 className="w-full mt-6 text-left"
                             >
                                 <div className="flex items-center gap-3 mb-2">
-                                    <span className="px-3 py-1 bg-orange-600 text-white text-xs font-bold rounded-full uppercase tracking-wider">
+                                    <span className="px-3 py-1 bg-primary text-white text-xs font-bold rounded-full uppercase tracking-wider">
                                         {selectedItem.category}
                                     </span>
                                     {selectedItem.date && (

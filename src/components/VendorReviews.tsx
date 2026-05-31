@@ -17,14 +17,14 @@ const reviews = [
         location: "Saharanpur",
         service: "Home Cleaning Service",
         rating: 5,
-        review: "Mujhe urgent home cleaning service chahiye thi aur Needin ne same day trusted vendor provide kar diya. Staff polite tha aur kaam professionally hua.",
+        review: "Mujhe urgent home cleaning service chahiye thi aur Needin ne same day trusted professional provide kar diya. Staff polite tha aur kaam professionally hua.",
     },
     {
         name: "Mohit Kumar",
         location: "Saharanpur",
         service: "Plumbing Service",
         rating: 5,
-        review: "Plumber booking ka experience kaafi smooth raha. Leakage issue properly resolve hua aur extra charge nahi liya gaya. Needin par vendors reliable hain.",
+        review: "Plumber booking ka experience kaafi smooth raha. Leakage issue properly resolve hua aur extra charge nahi liya gaya. Needin par professionals reliable hain.",
     },
     {
         name: "Aman Verma",

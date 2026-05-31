@@ -75,7 +75,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      content: "BG-60,  Main NH-58, Yogi Puram, Meerut – 250002, India",
+      content: "BG-60,  Main NH-58, Yogi Puram, Meerut – 250001, India",
     },
     // {
     //   icon: MapPin,

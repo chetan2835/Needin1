@@ -7,7 +7,7 @@ const stats = [
     icon: Users,
     value: 5000,
     suffix: "+",
-    label: "Verified Vendors",
+    label: "Verified Professionals",
   },
   {
     icon: Package,

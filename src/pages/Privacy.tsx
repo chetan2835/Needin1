@@ -115,7 +115,7 @@ const Privacy = () => {
                 <p>We use collected information to:</p>
                 <ul className="list-disc pl-8">
                   <li>Provide, operate, and manage Needin services</li>
-                  <li>Connect users with vendors and delivery partners</li>
+                  <li>Connect users with professionals and delivery partners</li>
                   <li>Verify identity and prevent fraud, fake accounts, or misuse</li>
                   <li>Enable secure onboarding and KYC verification</li>
                   <li>Process orders, deliveries, and payments</li>
@@ -170,7 +170,7 @@ const Privacy = () => {
 
                 <h3 className="text-xl font-bold mt-4">4. Phone Call Permission</h3>
                 <ul className="list-disc pl-8">
-                  <li>To enable call connectivity between users, vendors, and delivery partners</li>
+                  <li>To enable call connectivity between users, professionals, and delivery partners</li>
                   <li>Call functionality is limited strictly to service-related communication</li>
                   <li>The App does not record any phone calls</li>
                 </ul>
@@ -196,7 +196,7 @@ const Privacy = () => {
                   We may share personal information only when necessary, including with:
                 </p>
                 <ul className="list-disc pl-8">
-                  <li>Vendors to fulfill service requests</li>
+                  <li>Professionals to fulfill service requests</li>
                   <li>Delivery partners for pickup and delivery</li>
                   <li>Payment gateway providers for transaction processing</li>
                   <li>Identity verification providers (e.g., DigiLocker, KYC services)</li>
@@ -209,10 +209,10 @@ const Privacy = () => {
                 <hr className="my-10" />
 
                 <h2 className="text-2xl font-bold text-foreground">
-                  6. Vendor & Delivery Partner Data Visibility
+                  6. Professional & Delivery Partner Data Visibility
                 </h2>
                 <p>
-                  Only the minimum necessary user information is shared with vendors and delivery partners strictly for service fulfillment purposes.
+                  Only the minimum necessary user information is shared with professionals and delivery partners strictly for service fulfillment purposes.
                 </p>
 
                 <hr className="my-10" />

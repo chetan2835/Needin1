@@ -39,7 +39,7 @@ const BecomeVendorCTA = () => {
                 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
                   Become a{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Needin Vendor</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Needin Professional</span>
                 </h2>
                 
                 <p className="text-muted-foreground mb-10 text-lg">
@@ -63,7 +63,7 @@ const BecomeVendorCTA = () => {
 
                 {/* CTAs */}
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Link to="/become-vendor">
+                  <Link to="/become-professional">
                     <Button 
                       size="lg" 
                       className="relative overflow-hidden group bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 rounded-xl shadow-lg w-full sm:w-auto"

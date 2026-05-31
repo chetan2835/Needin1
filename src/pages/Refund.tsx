@@ -42,13 +42,13 @@ const Refund = () => {
                   <li><strong>Instant Services</strong> - Once a Service partner has been assigned or has commenced the provision of Services, the User shall not be entitled to cancel such Services. In the event that a Service partner has not yet been assigned, the User may cancel the Services availed through the Platform.</li>
                   <li><strong>Scheduled Services</strong> - For scheduled Services the following are the cancellation timelines:
                     <ul className="list-disc pl-6 mt-2 space-y-2">
-                      <li>If cancellation occur after 4 (Four) or more hours prior to the scheduled service time, then full refund shall be provided to the User.</li>
-                      <li>If cancellation occur’s within a period of not less than one (1) hour and not more than Four (4) hours prior to the Scheduled Service Time then the Company shall refund upto 50% (Fifty) percent of the amount to the User.</li>
-                      <li>If cancellation occurs less than one (1) hour prior to the Scheduled Service Time then the Company shall not be liable to provide any refund.</li>
-                      <li>For scheduled services, if the User is not available at the scheduled time and location then it shall be treated as a no show. Any instance of no show shall not be eligible for a refund.</li>
+                      <li>If a cancellation occurs 4 (four) or more hours prior to the Scheduled Service Time, the User shall be entitled to a full refund.</li>
+                      <li>If a cancellation occurs within a period of not less than 1 (one) hour and not more than 4 (four) hours prior to the Scheduled Service Time, the Company shall refund up to 50% (fifty percent) of the amount paid by the User.</li>
+                      <li>If a cancellation occurs less than 1 (one) hour prior to the Scheduled Service Time, the Company shall not be liable to provide any refund.</li>
+                      <li>For scheduled services, if the User is not available at the scheduled time and location, it shall be treated as a "no-show." Any instance of a no-show shall not be eligible for a refund.</li>
                     </ul>
                   </li>
-                  <li><strong>Recurring Services</strong> - 
+                  <li><strong>Recurring Services</strong> -
                     <br /><br /><strong>Cancellation of Individual Sessions</strong>
                     <ul className="list-disc pl-6 mt-2 mb-4 space-y-2">
                       <li>Users may cancel an individual session within a recurring plan at no cost, provided the cancellation is made at least 4 hours prior to the scheduled start time.</li>

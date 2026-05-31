@@ -197,7 +197,7 @@ const NeedinExpress = () => {
                                     11. No Insurance
                                 </h2>
                                 <p>
-                                    Parcels sent via Needin Express are <strong>not insured by default.</strong> Users are advised <strong>not to send high-value or sensitive Fragile items.</strong>
+                                    Parcels sent via Needin Express are <strong>not insured by default.</strong> Users are advised <strong>not to send high-value or sensitive / Fragile items.</strong>
                                 </p>
 
                                 <hr className="my-10" />

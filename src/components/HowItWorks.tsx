@@ -22,7 +22,7 @@ const HowItWorks = () => {
       subtitle: "Start earning with Needin",
       color: "secondary",
       steps: [
-        { icon: FileText, title: "Register", description: "Create your vendor profile" },
+        { icon: FileText, title: "Register", description: "Create your professional profile" },
         { icon: UserCheck, title: "Complete KYC", description: "Verify your identity" },
         { icon: CreditCard, title: "Activate Subscription", description: "Choose your plan" },
         { icon: Star, title: "Start Earning", description: "Receive orders & grow" },

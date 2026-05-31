@@ -7,7 +7,7 @@ const testimonials = [
     name: "Priya Sharma",
     location: "Delhi",
     rating: 5,
-    review: "Needin made finding a reliable electrician so easy! The vendor was professional and the pricing was transparent. Highly recommend!",
+    review: "Needin made finding a reliable electrician so easy! The professional was professional and the pricing was transparent. Highly recommend!",
     service: "Electrician",
     avatar: "PS",
   },
@@ -73,7 +73,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Trusted by thousands of customers and vendors across India
+            Trusted by thousands of customers and professionals across India
           </p>
         </div>
 

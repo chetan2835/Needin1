@@ -22,7 +22,7 @@ const BecomeVendor = () => {
   ];
 
   const steps = [
-    { number: "1", title: "Register on Needin", description: "Create your vendor account with basic details" },
+    { number: "1", title: "Register on Needin", description: "Create your professional account with basic details" },
     { number: "2", title: "Complete KYC Verification", description: "Submit required documents for verification" },
     { number: "3", title: "Activate Subscription", description: "Choose a plan that suits your business" },
     { number: "4", title: "Go Live & Start Earning", description: "Start receiving orders from customers" },
@@ -31,8 +31,8 @@ const BecomeVendor = () => {
   return (
     <>
       <Helmet>
-        <title>Become a Vendor - Needin | Grow Your Business</title>
-        <meta name="description" content="Join Needin as a vendor and grow your business. Reach more customers, flexible working, and verified platform support. Register now!" />
+        <title>Become a Professional - Needin | Grow Your Business</title>
+        <meta name="description" content="Join Needin as a professional and grow your business. Reach more customers, flexible working, and verified platform support. Register now!" />
       </Helmet>
 
       <Header />
@@ -72,7 +72,7 @@ const BecomeVendor = () => {
                 Why Partner with Needin?
               </h2>
               <p className="text-muted-foreground font-bold">
-                Join thousands of vendors already earning with Needin.
+                Join thousands of professionals already earning with Needin.
               </p>
             </div>
 
@@ -100,7 +100,7 @@ const BecomeVendor = () => {
                 How to Get Started
               </h2>
               <p className="text-muted-foreground font-bold">
-                Four simple steps to become a Needin vendor.
+                Four simple steps to become a Needin professional.
               </p>
             </div>
 

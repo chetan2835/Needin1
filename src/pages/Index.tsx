@@ -16,8 +16,8 @@ const Index = () => {
     <>
       <Helmet>
         <title>Needin - Local Services & Travel-Based Delivery | Hyperlocal Platform India</title>
-        <meta name="description" content="Needin connects you with verified local vendors for home repair, cleaning, personal care, and Travel-Based Delivery across India. 27+ service categories. Download now!" />
-        <meta name="keywords" content="local services, travel-based delivery, home repair, plumber, electrician, AC repair, hyperlocal, India, Needin, vendor services" />
+        <meta name="description" content="Needin connects you with verified local professionals for home repair, cleaning, personal care, and Travel-Based Delivery across India. 27+ service categories. Download now!" />
+        <meta name="keywords" content="local services, travel-based delivery, home repair, plumber, electrician, AC repair, hyperlocal, India, Needin, professional services" />
         <link rel="canonical" href="https://needin.app" />
       </Helmet>
 

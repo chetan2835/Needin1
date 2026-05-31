@@ -11,17 +11,17 @@ const faqs = [
   {
     question: "What is Needin?",
     answer:
-      "Needin is a hyperlocal gig economy platform that connects customers with verified local vendors for home services, personal care, and Travel-Based Delivery across India. We offer 27+ service categories and Needin Express for fast parcel delivery.",
+      "Needin is a hyperlocal gig economy platform that connects customers with verified local professionals for home services, personal care, and Travel-Based Delivery across India. We offer 27+ service categories and Needin Express for fast parcel delivery.",
   },
   {
     question: "How do I book a service on Needin?",
     answer:
-      "Simply download the Needin app, select the service you need, choose a verified vendor based on ratings and reviews, and book instantly. The vendor will arrive at your scheduled time.",
+      "Simply download the Needin app, select the service you need, choose a verified professional based on ratings and reviews, and book instantly. The professional will arrive at your scheduled time.",
   },
   {
-    question: "Are the vendors verified?",
+    question: "Are the professionals verified?",
     answer:
-      "Yes, all vendors on Needin go through a thorough verification process including KYC documentation and background checks. They are activated only after completing our subscription-based onboarding process.",
+      "Yes, all professionals on Needin go through a thorough verification process including KYC documentation and background checks. They are activated only after completing our subscription-based onboarding process.",
   },
   {
     question: "What is Needin Express?",
@@ -29,10 +29,10 @@ const faqs = [
       "Needin Express is our travel-based peer-to-peer delivery service offering Travel-Based and intercity parcel & document delivery at affordable rates. It's ideal for urgent deliveries across India.",
   },
   {
-    question: "How can I become a vendor on Needin?",
+    question: "How can I become a professional on Needin?",
     answer:
       <>
-        To become a vendor, register on our app or website, complete your KYC verification, subscribe to our vendor plan, and start receiving customer bookings in your area. You can also contact us at{" "}
+        To become a professional, register on our app or website, complete your KYC verification, subscribe to our professional plan, and start receiving customer bookings in your area. You can also contact us at{" "}
         
         <a href="https://wa.me/919286783640" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
           <svg className="w-3.5 h-3.5 text-green-500" viewBox="0 0 24 24" fill="currentColor">
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "What are the charges for using Needin services?",
     answer:
-      "Pricing is transparent and varies by service category. You can see the estimated cost before confirming your booking. There are no hidden charges, and vendors follow standardized pricing guidelines.",
+      "Pricing is transparent and varies by service category. You can see the estimated cost before confirming your booking. There are no hidden charges, and professionals follow standardized pricing guidelines.",
   },
   {
     question: "Which cities does Needin operate in?",

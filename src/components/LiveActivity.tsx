@@ -7,7 +7,7 @@ import { CheckCircle, Truck, Wrench, Sparkles } from "lucide-react";
 const activities = [
     { text: "Rajesh (Mumbai) booked a Plumber", icon: Wrench, color: "text-blue-500" },
     { text: "Priya (Delhi) sent a parcel via Express", icon: Truck, color: "text-orange-500" },
-    { text: "Amit (Bangalore) just joined as a Vendor", icon: Sparkles, color: "text-yellow-500" },
+    { text: "Amit (Bangalore) just joined as a Professional", icon: Sparkles, color: "text-yellow-500" },
     { text: "Sneha (Pune) booked Home Cleaning", icon: CheckCircle, color: "text-green-500" },
     { text: "Vikram (Hyderabad) sent documents to Chennai", icon: Truck, color: "text-orange-500" },
 ];

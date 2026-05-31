@@ -16,7 +16,7 @@ const features = [
     {
         icon: Shield,
         title: "Verified Professionals",
-        description: "Every vendor undergoes a strict background check and skill verification process."
+        description: "Every professional undergoes a strict background check and skill verification process."
     },
     {
         icon: Clock,
@@ -42,8 +42,8 @@ const VendorServices = () => {
     return (
         <>
             <Helmet>
-                <title>Vendor Services - Hire Local Experts | Needin</title>
-                <meta name="description" content="Find and book verified local professionals for home repairs, cleaning, personal care, and more on Needin. Trusted vendors, transparent pricing." />
+                <title>Professional Services - Hire Local Experts | Needin</title>
+                <meta name="description" content="Find and book verified local professionals for home repairs, cleaning, personal care, and more on Needin. Trusted professionals, transparent pricing." />
             </Helmet>
 
             <Header />
@@ -103,7 +103,7 @@ const VendorServices = () => {
                                         Explore Services
                                     </Button>
                                 </a>
-                                <Link to="/become-vendor">
+                                <Link to="/become-professional">
                                     <Button variant="outline" size="lg" className="text-lg px-8 py-6 rounded-2xl border-2 hover:bg-accent/10">
                                         Join as Professional
                                     </Button>
@@ -168,7 +168,7 @@ const VendorServices = () => {
                                     style={{ fontFamily: 'Poppins, sans-serif' }}
                                 >
                                     Why Neighbors Trust <br />
-                                    <span className="text-primary">Needin Vendors</span>
+                                    <span className="text-primary">Needin Professionals</span>
                                 </motion.h2>
                                 <p className="text-lg text-muted-foreground mb-12">
                                     We don't just connect you with anyone. We build relationships with the best local professionals to ensure you get top-notch service every time.

@@ -25,7 +25,7 @@ function AnimatedText() {
                 anchorY="middle"
                 font="https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff"
                 outlineWidth={0.02}
-                outlineColor="#ea580c"
+                outlineColor="hsl(4, 73%, 61%)"
             >
                 COMING SOON
             </Text>
@@ -37,7 +37,7 @@ import bgImage from "@/assets/hero-bg-final.jpg";
 
 const ComingSoonBanner = () => {
     return (
-        <div className="w-full h-[150px] md:h-[200px] relative overflow-hidden bg-gradient-to-r from-orange-900 to-black select-none z-20">
+        <div className="w-full h-[150px] md:h-[200px] relative overflow-hidden bg-gradient-to-r from-primary/80 to-black select-none z-20">
             <div
                 className="absolute inset-0 opacity-20 bg-cover bg-center pointer-events-none"
                 style={{ backgroundImage: `url(${bgImage})` }}
@@ -46,11 +46,11 @@ const ComingSoonBanner = () => {
                 <ambientLight intensity={0.5} />
                 <pointLight position={[10, 10, 10]} />
                 <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
-                <Sparkles count={50} scale={5} size={2} speed={0.4} opacity={0.5} color="#fb923c" />
+                <Sparkles count={50} scale={5} size={2} speed={0.4} opacity={0.5} color="hsl(4, 73%, 61%)" />
                 <AnimatedText />
             </Canvas>
             <div className="absolute bottom-2 left-0 right-0 text-center">
-                <p className="text-orange-200/80 text-xs md:text-sm font-bold tracking-[0.2em] uppercase animate-pulse">
+                <p className="text-primary-foreground/80 text-xs md:text-sm font-bold tracking-[0.2em] uppercase animate-pulse">
                     Launching Across India Soon
                 </p>
             </div>

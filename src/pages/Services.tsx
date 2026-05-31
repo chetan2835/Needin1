@@ -10,7 +10,7 @@ const Services = () => {
     <>
       <Helmet>
         <title>Our Services - Needin | 27+ Local Service Categories</title>
-        <meta name="description" content="Explore 27+ verified vendor services including home repair, cleaning, personal care, transport, and Travel-Based Delivery across India." />
+        <meta name="description" content="Explore 27+ verified professional services including home repair, cleaning, personal care, transport, and Travel-Based Delivery across India." />
       </Helmet>
 
       <Header />

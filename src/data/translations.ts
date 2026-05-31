@@ -12,7 +12,7 @@ export const translations: Record<Language, Translations> = {
             about: "About",
             services: "Services",
             howItWorks: "How It Works",
-            becomeVendor: "Become Vendor",
+            becomeVendor: "Become Professional",
             contact: "Contact",
             downloadApp: "Download App",
         },

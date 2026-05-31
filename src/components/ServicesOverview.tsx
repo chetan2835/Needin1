@@ -16,7 +16,7 @@ const ServicesOverview = () => {
       description: "Book trusted professionals for home, personal care, cleaning, repair, and daily support services.",
       gradient: "from-primary/20 via-primary/10 to-transparent",
       iconBg: "bg-primary text-primary-foreground",
-      link: "/vendor-services",
+      link: "/professional-services",
     },
     {
       icon: Truck,
@@ -29,7 +29,7 @@ const ServicesOverview = () => {
   ];
 
   const features = [
-    { icon: Shield, text: "Verified vendors & transparent pricing" },
+    { icon: Shield, text: "Verified professionals & transparent pricing" },
     { icon: Clock, text: "27+ local service categories" },
     { icon: Truck, text: "Travel-Based & intercity delivery option" },
     { icon: Smartphone, text: "One app for services + delivery" },
