@@ -14,6 +14,7 @@ const CONFIG = {
   // To create an admin account: go to your Supabase dashboard → Authentication → Users → Invite User
   adminEmails: [
     'admin@needin.in',
+    'chetanpunj9@gmail.com',
     // Add more admin emails here as needed
   ],
 
