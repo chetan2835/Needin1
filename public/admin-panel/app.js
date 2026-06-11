@@ -9,9 +9,13 @@ const CONFIG = {
   supabaseUrl:  'https://ghiydlxlvrfkgzngnonk.supabase.co',
   supabaseKey:  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdoaXlkbHhsdnJma2d6bmdub25rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTg3NDcsImV4cCI6MjA4ODk5NDc0N30.sNJwfPB5c3AxxlCfm3F9hOtM4nas64U7sIU5kxtEZWY',
 
-  // Admin email whitelist — only these emails can log in
+  // ★ ADD YOUR ADMIN EMAIL(S) HERE ★
+  // These must match the email used to sign up for Supabase Auth.
+  // To create an admin account: go to your Supabase dashboard → Authentication → Users → Invite User
   adminEmails: [
+    'admin@needin.in',
     'chetanpunj9@gmail.com',
+    // Add more admin emails here as needed
   ],
 
   rowsPerPage: 25,
